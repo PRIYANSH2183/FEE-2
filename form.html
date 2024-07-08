@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Job Application Form</title>
+</head>
+<body>
+    <center>
+    <h1>Job Application Form</h1>
+    
+    <form action="submit.php" method="POST">
+        <label for="name">First Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="name">Last Name:</label>
+        <input type="text" id="name" name="name" required><br></br>
+        <label for="name">Father's Name:</label>
+        <input type="text" id="name" name="name" required><br></br>
+
+        <label for="phone">Nationality:</label>
+        <select name="city">
+            <option value="India">Indian</option>
+            <option value="Nepal">nepali</option>
+            <option value="Pakistan">pakistani</option>
+        </select>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+        <label for="name">Gender:</label>
+        <select name="Name">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Others">Others</option>
+        </select><br></br>
+
+        
+        <label for="phone">Phone no:</label>
+        <select name="city">
+            <option value="India">India(+91)</option>
+            <option value="Nepal">nepal(+98)</option>
+            <option value="Pakistan">pakistan(+93)</option>
+        </select>
+       
+        
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <input type="checkbox" checked>
+        <label for="email">Email:</label>
+        <select name="email">
+            
+            <option value="email">gurupriyansh@gmail.com</option>
+        </select><br><br>
+        
+        
+        <label for="resume">Resume:</label>
+        <input type="file" id="resume" name="resume" required><br><br>
+
+        <label for="resume">Skills:</label><br></br>
+        <label for="option1">
+            <input type="checkbox" id="option1" name="option1" value="Option 1">
+            HTML
+        </label>
+        <br>
+        <label for="option2">
+            <input type="checkbox" id="option2" name="option2" value="Option 2">
+            JS
+        </label>
+        <br>
+        <label for="option3">
+            <input type="checkbox" id="option3" name="option3" value="Option 3">
+            PYTHON
+        </label>
+
+        <br></br>
+        
+        <label for="cover-letter">Address:</label><br>
+        <textarea id="cover-letter" name="cover-letter" rows="5" required></textarea><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</center>
+</body>
+</html>
